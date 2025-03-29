@@ -1,0 +1,15 @@
+{
+    "name": "raducu/form",
+    "autoload": {
+        "psr-4": {
+            "Raducu\\Form\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "raducu",
+            "email": "raducu.web3box@gmail.com"
+        }
+    ],
+    "require": {}
+}
