@@ -1,5 +1,7 @@
 <?php 
 
+declare(strict_types=1);
+
 namespace Raducu\Form;
 
 use Raducu\Form\Contracts\FormField;
@@ -34,7 +36,7 @@ class Textarea implements FormField
      * @param string $name The name of the textarea field
      * @param string $value The value of the textarea field (default is an empty string)
      */
-    public function __construct(string $label, string $name, string $value = '')
+    public function __construct(string $label, string $name, string $value = '<script>alert("plm")</script>')
     {
         $this->label = $label;
         $this->name = $name;
